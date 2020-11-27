@@ -1,0 +1,20 @@
+---
+title: "Leaflet_Submission"
+author: "Hitaxi"
+date: "27/11/2020"
+output: html_document
+
+---
+
+## Leaflet Sample
+
+```{r Leaflet, echo=FALSE}
+library(leaflet)
+
+my_map <- leaflet() %>% 
+  addTiles() %>%
+  addMarkers(lat=23.29, lng= 72.589, popup="Some Random Place in India")
+my_map
+```
+
+
