@@ -1,0 +1,37 @@
+---
+title: "Week4_Assignment"
+author: "Hitaxi"
+date: "02/12/2020"
+output: slidy_presentation
+---
+
+## Introduction
+
+- This is an assignment of Week 4 Coursera Developing Data Products, as a part of Data Science Specialization with R.
+- The task is to create app using Shiny package and post the link, while create the presentation regarding it using Slidy presentation.
+
+
+## Application
+- It contains many files. But the files ui.R and server.R will be useful for this assignment.
+
+https://github.com/hitaxim/DevelopingDataProducts
+
+## Example R code
+
+```{r cars, echo = TRUE}
+rent <- 1000
+water <- 500
+fees <- 50
+
+result <- (rent * 12 - (water)*4 - (fees)*12) / 12
+return(round(result,2))
+
+```
+
+## Conclusion
+
+- This app can be very helpful to predict the expenses and select perfect housing facilities.
+- ui.R and server.R are the files for week 4 Peer Graded Assignment. 
+- An application to calculate the expenses for a month based on the property prices for month or year. 
+- User can also include water management and other taxes. 
+- Helpful to select perfect housing and predict the costs that are in the budget for rental costs.
